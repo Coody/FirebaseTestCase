@@ -9,3 +9,6 @@ iOS Objective-C 的 Firebase+RealTimeDataBase 的測試專案
 # Firebase+RealTimeDatabase
 
 RealTimeDatabase 模組化
+
+# 聲明
+- 此 License 屬於 MIT ，請自由取用。
