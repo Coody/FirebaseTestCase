@@ -11,6 +11,4 @@
 
 +(instancetype)sharedInstance;
 
--(instancetype)init;
-
 @end

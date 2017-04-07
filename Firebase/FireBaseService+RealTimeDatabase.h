@@ -23,8 +23,8 @@ typedef void(^FirebaseRealTimeDatabaseResponseBlock)( FIRDataSnapshot *tempRealT
 /**
  * @brief - 取得 RealTimeDatabase 的資訊
  *
- * @param - tempDatabaseKey , 使用此 key 取得內容
- * @param - tempResponseBlock , 回傳 block
+ * @param tempDatabaseKey , 使用此 key 取得內容
+ * @param tempResponseBlock , 回傳 block
  */
 -(void)getRealTimeDatabaseWithKey:(NSString *)tempDatabaseKey 
                 withResponseBlock:(FirebaseRealTimeDatabaseResponseBlock)tempResponseBlock;
