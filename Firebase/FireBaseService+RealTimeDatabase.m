@@ -74,11 +74,11 @@ static const char ResponseBlockKey;
 
 #pragma mark - Private methods
 #pragma mark : Dynamic property
--(FIRDatabase *)ref{
+-(FIRDatabaseReference *)ref{
     return objc_getAssociatedObject(self, @selector(ref));
 }
 
--(void)setRef:(FIRDatabase *)ref{
+-(void)setRef:(FIRDatabaseReference *)ref{
     objc_setAssociatedObject(self, @selector(ref), ref, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
